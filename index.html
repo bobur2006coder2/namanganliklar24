@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAMANGANLIKLAR24</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="https://namanganliklar.uz/assets/imgs/logo.svg" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="container mt-5">
+      <div class="d-flex align-items-center justify-content-between">
+
+        <div class="logo-and-price d-flex align-items-center ">
+          <div class="logo-box">
+            <a href="#" style="text-decoration: none;">
+                <h2 class="logo-text">NAMANGANLIKLAR24</h2>
+            </a>
+          </div>
+
+          <div class="d-flex align-items-center gap-5">
+            <div class="currency-box">
+              <span class="symbol-currency">$</span>
+              <span class="currency-numbers">10137.2</span>
+            </div>
+            <div class="currency-box">
+              <span class="symbol-currency">$</span>
+              <span class="currency-numbers">10137.2</span>
+            </div>
+            <div class="currency-box">
+              <span class="symbol-currency">$</span>
+              <span class="currency-numbers">10137.2</span>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="search-lang-share d-flex align-items-center justify-content-between">
+            <div class="global-search-form-box">
+                <form class="d-flex align-items-center gap-5">
+                  <input type="search" id="global-search" required />
+                  <button global-search-btn type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+
+            <div class="lang-select-box">
+                <img src="./images/logos/rus-logo.svg" alt="" langLogo>
+                <select id="lang-select">
+                    <option value="rus">
+                            <span langText>PY</span>
+                    </option>
+                    <option value="uzb">
+                            <span langText>UZB</span>
+                    </option>
+                    <option value="eng">
+                            <span langText>ENG</span>
+                    </option>
+                </select>
+            </div>
+
+            <button class="subscribe-btn">
+                <i class="fa-brands fa-telegram"></i>
+                <caption class="subscribe-btn-text">Подписатся</caption>
+            </button>
+
+
+
+        </div>
+
+
+      </div>
+    </header>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
