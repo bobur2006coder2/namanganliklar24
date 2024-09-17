@@ -54,15 +54,9 @@
           <div class="lang-select-box">
             <img src="./images/logos/rus-logo.svg" alt="" langLogo />
             <select id="lang-select">
-              <option value="rus">
-                PY
-              </option>
-              <option value="uzb">
-                UZB
-              </option>
-              <option value="eng">
-              ENG
-              </option>
+              <option value="rus">PY</option>
+              <option value="uzb">UZB</option>
+              <option value="eng">ENG</option>
             </select>
           </div>
 
@@ -143,24 +137,29 @@
 
     <main class="container">
       <section class="news-cards-container mt-2">
-        <ul class="news-cards-list list-style-none d-flex align-items-center flex-wrap gap-20">
+        <ul
+          class="news-cards-list list-style-none d-flex align-items-center flex-wrap gap-20"
+        >
           <li class="news-cards-list-item">
             <div class="news-card">
               <img src="./images/prezident.png" alt="picture" />
               <caption>
-                <a href="./prezident.html" class="mt-1">Мирзиёев рассказал, зачем было построено Сардобинское
-                  водохранилище</a>
+                <a href="./prezident.html" class="mt-1"
+                  >Мирзиёев рассказал, зачем было построено Сардобинское
+                  водохранилище</a
+                >
               </caption>
               <span class="mt-1" id="news-card-date"></span>
             </div>
           </li>
-
 
           <li class="news-cards-list-item">
             <div class="news-card">
               <img src="./images/karantin.jpg" alt="picture" />
               <caption>
-                <a href="./prezident.html" class="mt-1">Карантин в Узбекистане продлен до 1 июня</a>
+                <a href="./prezident.html" class="mt-1"
+                  >Карантин в Узбекистане продлен до 1 июня</a
+                >
               </caption>
               <span class="mt-1" id="news-card-date"></span>
             </div>
@@ -168,45 +167,235 @@
 
           <li class="news-cards-list-item">
             <div class="news-card">
-              <img src="./images/sardoba.jpg"  alt="picture" />
+              <img src="./images/sardoba.jpg" alt="picture" />
               <caption>
-                <a href="./prezident.html" class="mt-1">Обмелевшая Сардоба: стихия или 
-                  человеческий фактор?</a>
+                <a href="./prezident.html" class="mt-1"
+                  >Обмелевшая Сардоба: стихия или человеческий фактор?</a
+                >
               </caption>
               <span class="mt-1" id="news-card-date"></span>
             </div>
           </li>
           <li class="news-cards-list-item">
             <div class="news-card">
-              <img src="./images/prokuror.jpg"  alt="picture" />
+              <img src="./images/prokuror.jpg" alt="picture" />
               <caption>
-                <a href="./prezident.html" class="mt-1">Следствие проверяет четыре версии 
-                  прорыва Сардобинской плотины</a>
+                <a href="./prezident.html" class="mt-1"
+                  >Следствие проверяет четыре версии прорыва Сардобинской
+                  плотины</a
+                >
               </caption>
               <span class="mt-1" id="news-card-date"></span>
             </div>
           </li>
           <li class="news-cards-list-item">
             <div class="news-card">
-              <img src="./images/tez-yordam.jpg"  alt="picture" />
+              <img src="./images/tez-yordam.jpg" alt="picture" />
               <caption>
-                <a href="./prezident.html" class="mt-1">Выявлено еще 7 случаев коронавируса</a>
+                <a href="./prezident.html" class="mt-1"
+                  >Выявлено еще 7 случаев коронавируса</a
+                >
               </caption>
               <span class="mt-1" id="news-card-date"></span>
             </div>
           </li>
           <li class="news-cards-list-item">
             <div class="news-card">
-              <img src="./images/stop-karantin.jpg"  alt="picture" />
+              <img src="./images/stop-karantin.jpg" alt="picture" />
               <caption>
-                <a href="./prezident.html" class="mt-1">ОИтоги второго месяца карантина</a>
+                <a href="./prezident.html" class="mt-1"
+                  >ОИтоги второго месяца карантина</a
+                >
               </caption>
               <span class="mt-1" id="news-card-date"></span>
             </div>
           </li>
-
-
         </ul>
+      </section>
+      
+      <section
+        class="mt-5 d-flex align-items-center flex-wrap justify-content-between notifications-box"
+      >
+        <div class="d-flex align-items-center gap-5 notification-text">
+          <i
+            class="fa-regular fa-bell fa-shake"
+            style="color: #ffd43b; font-size: 25px"
+          ></i>
+          <span>Хотите узнать новости первыми? подключите уведомления!</span>
+        </div>
+        <button class="notification-btn">Включит уведомления!</button>
+      </section>
+
+      <section class="mt-5 lastest-news-container">
+        <div>
+          <h3>Последние новости</h3>
+          <article class="lastest-news-card d-flex align-items-center gap-5">
+            <div class="lastest-news-card-img">
+              <img src="./images/Rectangle 21.png" alt="picture" />
+            </div>
+            <div class="lastest-news-card-text">
+              <span>
+                По факту прорыва Сардобинского водохранилища возбуждено
+                уголовное дело
+              </span>
+              <p>
+                После прорыва дамбы Сардобинского водохранилища возбуждено
+                уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                Узбекистана.
+              </p>
+              <div>
+                <i class="fa-regular fa-calendar"></i>
+                <span id="news-card-date"></span>
+              </div>
+            </div>
+          </article>
+          <article class="lastest-news-card d-flex align-items-center gap-5">
+            <div class="lastest-news-card-img">
+              <img src="./images/Rectangle 23.png" alt="picture" />
+            </div>
+            <div class="lastest-news-card-text">
+              <span>
+                Мирзиёев: «Нам следовало бы принять некоторые правила карантина
+                как часть повседневной жизни»
+              </span>
+              <p>
+                Президент Узбекистана заявил, что после того, как угроза
+                коронавируса исчезнет, в стране следовало бы принять некоторые
+                правила периода карантина как часть своей повседневной жизни.
+              </p>
+              <div>
+                <i class="fa-regular fa-calendar"></i>
+                <span id="news-card-date"></span>
+              </div>
+            </div>
+          </article>
+          <article class="lastest-news-card d-flex align-items-center gap-5">
+            <div class="lastest-news-card-img">
+              <img src="./images/Rectangle 24.png" alt="picture" />
+            </div>
+            <div class="lastest-news-card-text">
+              <span>
+                В Ташкенте планируют ввести новую систему электронных проездных
+                билетов
+              </span>
+              <p>
+                Целью этих изменений является максимально возможное сокращение
+                количества других маршрутов на улицах, где проходят основные
+                маршруты.
+              </p>
+              <div>
+                <i class="fa-regular fa-calendar"></i>
+                <span id="news-card-date"></span>
+              </div>
+            </div>
+          </article>
+          <article class="lastest-news-card d-flex align-items-center gap-5">
+            <div class="lastest-news-card-img">
+              <img src="./images/Rectangle 21.png" alt="picture" />
+            </div>
+            <div class="lastest-news-card-text">
+              <span>
+                По факту прорыва Сардобинского водохранилища возбуждено
+                уголовное дело
+              </span>
+              <p>
+                После прорыва дамбы Сардобинского водохранилища возбуждено
+                уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                Узбекистана.
+              </p>
+              <div>
+                <i class="fa-regular fa-calendar"></i>
+                <span id="news-card-date"></span>
+              </div>
+            </div>
+          </article>
+          <article class="lastest-news-card d-flex align-items-center gap-5">
+            <div class="lastest-news-card-img">
+              <img src="./images/Rectangle 23.png" alt="picture" />
+            </div>
+            <div class="lastest-news-card-text">
+              <span>
+                Мирзиёев: «Нам следовало бы принять некоторые правила карантина
+                как часть повседневной жизни»
+              </span>
+              <p>
+                Президент Узбекистана заявил, что после того, как угроза
+                коронавируса исчезнет, в стране следовало бы принять некоторые
+                правила периода карантина как часть своей повседневной жизни.
+              </p>
+              <div>
+                <i class="fa-regular fa-calendar"></i>
+                <span id="news-card-date"></span>
+              </div>
+            </div>
+          </article>
+          <article class="lastest-news-card d-flex align-items-center gap-5">
+            <div class="lastest-news-card-img">
+              <img src="./images/Rectangle 24.png" alt="picture" />
+            </div>
+            <div class="lastest-news-card-text">
+              <span>
+                В Ташкенте планируют ввести новую систему электронных проездных
+                билетов
+              </span>
+              <p>
+                Целью этих изменений является максимально возможное сокращение
+                количества других маршрутов на улицах, где проходят основные
+                маршруты.
+              </p>
+              <div>
+                <i class="fa-regular fa-calendar"></i>
+                <span id="news-card-date"></span>
+              </div>
+            </div>
+          </article>
+          <center>
+
+            <button class="big-news-btn"><a href="#!">Больше новостей</a></button>
+          </center>
+        </div>
+
+        <div>
+          <div class="article-second-section">
+
+            <div class="popular-news-card">
+              <span class="pupular-news-title">Cамые популярные новости</span>
+              <p>
+                По факту прорыва Сардобинского водохранилища возбуждено уголовное
+                дело
+              </p>
+              <span id="news-card-date" class="popular-news-card-date"></span>
+            </div>
+  
+            <div class="other-news-card">
+              <p>
+                По факту прорыва Сардобинского водохранилища возбуждено уголовное
+                дело
+              </p>
+              <span id="news-card-date" class="popular-news-card-date"></span>
+            </div>
+            <div class="other-news-card">
+              <p>
+                По факту прорыва Сардобинского водохранилища возбуждено уголовное
+                дело
+              </p>
+              <span id="news-card-date" class="popular-news-card-date"></span>
+            </div>
+            <div class="other-news-card">
+              <p>
+                По факту прорыва Сардобинского водохранилища возбуждено уголовное
+                дело
+              </p>
+              <span id="news-card-date" class="popular-news-card-date"></span>
+            </div>
+          </div>
+
+          <div class="ucell-img-box">
+            <img src="./images/ucell.png" alt="">
+          </div>
+
+
+        </div>
       </section>
     </main>
 
