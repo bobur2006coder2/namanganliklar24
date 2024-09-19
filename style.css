@@ -383,7 +383,7 @@ ul li {
   line-height: 16.59px;
   text-align: left;
 }
-
+/* For mobile  */
 @media only screen and (max-width: 500px){
   .container{
     width: 100%;
