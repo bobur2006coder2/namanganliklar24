@@ -110,7 +110,7 @@ ul li {
   font-size: 20px;
   font-weight: 700;
 }
-.subscribe-btn {
+.subscribe-btn ,.foot-subscribe-btn{
   padding: 11px 25px;
   border: 1px solid rgb(128, 198, 241);
   border-radius: 5px;
@@ -447,5 +447,36 @@ ul li {
     font-family: var(--rubik);
     font-size: 12px;
     font-weight: 500;
+  }
+  .always-news-container {
+    background: #f6f6f9;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding-top: 37px;
+    border-radius: 5px;
+    margin-bottom: 38px;
+  }
+  .always-news-text span{
+    font-size: 15px;
+  }
+  .always-news-text p{
+    font-size: 15px;
+  }
+  .stores-box{
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .foot-subscribe-btn{
+    padding: 10px;
+  }
+  .foot-nam-title{
+    margin-bottom: 10px;
+  }
+  .footer-bottom-section {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
   }
 }
