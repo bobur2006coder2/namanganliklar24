@@ -480,3 +480,43 @@ ul li {
     gap: 30px;
   }
 }
+
+/* For tablet and laptop  */
+
+@media only screen and (max-width: 1025px){
+  .container{
+    width: 90%;
+    overflow: hidden;
+  }
+  .currency-container{
+    display: none;
+  }
+ .always-news-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding-top: 37px;
+  border-radius: 5px;
+  margin-bottom: 38px;
+  gap: 10px;
+ }
+ .news-cards-list{
+  justify-content: center;
+ }
+ .nav-list{
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 10px;
+ }
+
+}
+@media only screen and (max-width: 835px){
+  .lastest-news-container{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr ;
+  }
+  .subscribe-btn{
+    display: none;
+  }
+}
